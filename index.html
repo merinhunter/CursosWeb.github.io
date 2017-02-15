@@ -45,29 +45,35 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h2>Programas</h2>
           <p>Programas de los cursos. Incluyen planificación temporal de las clases, enunciados de ejercicios y prácticas, exámenes de cursos pasados, etc. </p>
           <p><a class="btn btn-default" href="#programas" role="button">Más información &raquo;</a></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h2>Código</h2>
           <p>Código usado para resolver los ejercicios o prácticas. </p>
           <p><a class="btn btn-default" href="#codigo" role="button">Más información &raquo;</a></p>
        </div>
-        <div class="col-md-4">
+
+       <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h2>Transparencias</h2>
           <p>Transparencias usadas en las sesiones de los cursos.</p>
           <p><a class="btn btn-default" href="#transpas" role="button">Más información &raquo;</a></p>
         </div>
 
-        <div class="col-md-4">
+        <div class="clearfix visible-lg-block"></div>
+        <div class="clearfix visible-md-block"></div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h2>Recursos</h2>
           <p>Enlaces a recursos externos (libros, programas, etc.) que pueden ser de interés.</p>
           <p><a class="btn btn-default" href="#recursos" role="button">Más información &raquo;</a></p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <h2>Alumnos</h2>
           <p>Materiales producidos por alumnos de estos cursos.</p>
           <p><a class="btn btn-default" href="#alumnos" role="button">Más información &raquo;</a></p>
@@ -77,6 +83,7 @@
       <div class="row">
 	<a name="programas"></a>
 	<h2>Programas</h2>
+  <div class="col-md-6 col-xs-12">
 	<p>Aplicaciones en el servidor usando HTTP:</p>
 	<ul>
 	  <li><a href="programas/IST-SARO.pdf">Servicios y Aplicaciones en Redes de Ordenadores</a>, Grado en Sistemas de Telecomunicación (IST-SARO).</li>
@@ -87,11 +94,16 @@
 	  <li><a href="programas/ITT-DAT.pdf">Desarrollo de Aplicaciones Telemáticas</a>, Grado en Ingeniería en Tecnologías de Telecomunicación (ITT-DAT).</li>
 	  <li><a href="programas/IT-AT.pdf">Aplicaciones Telemáticas</a>, Grado en Ingeniería Telemática (IT-AT).</li>
 	</ul>
+  </div>
+  <div class="col-md-6 col-sm-6 hidden-xs">
+    <img src="images/logoURJC.jpg"></img>
+  </div>
       </div>
 
       <div class="row">
 	<a name="codigo"></a>
 	<h2>Código</h2>
+  <div class="col-md-6 col-xs-12">
 	<p>Todo el código está en el repositorio <a href="https://github.com/CursosWeb/Code">CursosWeb/Code</a>.</p>
 
 	<p>Código utlizado en IST-SARO e ITT-SAT:</p>
@@ -122,11 +134,16 @@
 
 	<p>Recuerda que para entregar tus prácticas tendrás que &ldquo;hacer un fork&rdquo; de los repositorios correspondientes, y registrar tu nombre de cuenta en Git Hub en la actividad abierta para ello en el sitio de tu asignatura en el campus virtual.</p>
 	<p>Atención: iremos poniendo más código relacionado con las prácticas durante los próximos días.</p>
+  </div>
+  <div class="col-md-6 col-sm-6 hidden-xs">
+    <img src="images/logoURJC.jpg"></img>
+  </div>
       </div>
 
       <div class="row">
 	<a name="transpas"></a>
 	<h2>Transparencias</h2>
+  <div class="col-md-6 col-xs-12">
 	<p>Aplicaciones en el servidor usando HTTP:</p>
 	<ul>
 	  <li><a href="transpas/IST-SARO.pdf">Servicios y Aplicaciones en Redes de Ordenadores</a>, Grado en Sistemas de Telecomunicación (IST-SARO).</li>
@@ -146,17 +163,22 @@
 	  <li><a href="transpas/tecnoweb-intro.pdf">Introducción práctica a las tecnologías web</a></li>
 	</ul>
 	<p>Atención: iremos actualizando y completando las transparencias según avanzan las asignaturas.</p>
+  </div>
+  <div class="col-md-6 col-sm-6 hidden-xs">
+    <img src="images/logoURJC.jpg"></img>
+  </div>
       </div>
 
       <div class="row">
 	<a name="recursos"></a>
 	<h2>Recursos</h2>
+  <div class="col-md-6 col-xs-12">
 	<p>General:</p>
 	<ul>
 	  <li>Materiales varios: <a href="https://developer.mozilla.org/en-US/docs/Web">MDN Web Technologies for Developers</a>. Documentación y materiales de muchos tipos para desarrolladores interesados en tecnologías web</li>
 	  <li>Materiales varios: <a href="https://developer.mozilla.org/en-US/docs/Tools">Firefox Developer Tools</a>. Documentación sobre las herramientas de desarrollador incluidas en Firefox (consola, inspector de HTML, depuradores de JavaScript, de red, etc.)</li>
 	</ul>
-	
+
 	<p>JavaScript:</p>
 	<ul>
 	  <li>Transparencias: <a href="https://slides.com/concise/js">Concise JavaScript</a>. Breve introducción al lenguaje para quien ya sabe programar.</li>
@@ -186,7 +208,10 @@
 	<ul>
 	  <li>Libro: <a href="http://designingforperformance.com/">Designing for Performance</a>. Optimización de aplicaciones web, teniendo en cuenta tamibén aspectos de diseño.
 	</ul>
-
+  </div>
+  <div class="col-md-6 col-sm-6 hidden-xs">
+    <img src="images/logoURJC.jpg"></img>
+  </div>
       </div>
 
       <div class="row">
